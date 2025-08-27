@@ -66,7 +66,7 @@ Kein Build notwendig. Deployment z. B. via GitHub Pages:
 
 ## 🌐 Live Demo
 
-- Portfolio Website: später per GitHub Pages erreichbar (z. B. `https://qg1o.github.io/portfolio1/`)
+[Portfolio Website](https://qg1o.github.io/portfolio1/)
 
 ## 📧 Kontakt
 
