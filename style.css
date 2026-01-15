@@ -516,7 +516,7 @@ footer {
 footer p {
     text-align: center;
     color: var(--text-tertiary);
-    margin-top: 0.5rem;
+    margin-top: 1rem;
 }
 
 /* Hamburger Menu */
