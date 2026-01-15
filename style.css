@@ -23,21 +23,21 @@
 
 body.light-mode {
     /* Light Mode */
-    --bg-gradient-start: #f0f4f8;
-    --bg-gradient-end: #d9e4f5;
-    --text-primary: rgba(0, 0, 0, 0.87);
-    --text-secondary: rgba(0, 0, 0, 0.7);
-    --text-tertiary: rgba(0, 0, 0, 0.6);
-    --nav-bg: rgba(255, 255, 255, 0.9);
-    --nav-border: rgba(0, 0, 0, 0.1);
-    --container-bg: rgba(255, 255, 255, 0.9);
-    --container-bg-hover: rgba(255, 255, 255, 1);
-    --container-border: rgba(0, 0, 0, 0.15);
+    --bg-gradient-start: #8b9dc3;
+    --bg-gradient-end: #697a9e;
+    --text-primary: rgba(255, 255, 255, 0.95);
+    --text-secondary: rgba(245, 245, 250, 0.9);
+    --text-tertiary: rgba(230, 235, 245, 0.85);
+    --nav-bg: rgba(60, 70, 95, 0.8);
+    --nav-border: rgba(255, 255, 255, 0.2);
+    --container-bg: rgba(70, 85, 115, 0.6);
+    --container-bg-hover: rgba(80, 95, 125, 0.7);
+    --container-border: rgba(255, 255, 255, 0.25);
     --accent-color: #f39c12;
     --accent-secondary: #e74c3c;
-    --icon-filter: brightness(0);
-    --shadow-color: rgba(0, 0, 0, 0.15);
-    --border-subtle: rgba(0, 0, 0, 0.08);
+    --icon-filter: brightness(0) invert(1);
+    --shadow-color: rgba(0, 0, 0, 0.25);
+    --border-subtle: rgba(255, 255, 255, 0.15);
 }
 
 * {
