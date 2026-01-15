@@ -4,21 +4,21 @@
 /* Theme Variables */
 :root {
     /* Dark Mode (Default) */
-    --bg-gradient-start: #667eea;
-    --bg-gradient-end: #764ba2;
-    --text-primary: rgba(255, 255, 255, 0.95);
-    --text-secondary: rgba(255, 255, 255, 0.8);
-    --text-tertiary: rgba(255, 255, 255, 0.7);
-    --nav-bg: rgba(255, 255, 255, 0.05);
-    --nav-border: rgba(255, 255, 255, 0.1);
-    --container-bg: rgba(255, 255, 255, 0.1);
-    --container-bg-hover: rgba(255, 255, 255, 0.15);
-    --container-border: rgba(255, 255, 255, 0.2);
+    --bg-gradient-start: #1a1f3a;
+    --bg-gradient-end: #2d1b4e;
+    --text-primary: rgba(230, 235, 245, 0.95);
+    --text-secondary: rgba(200, 210, 230, 0.9);
+    --text-tertiary: rgba(180, 195, 220, 0.8);
+    --nav-bg: rgba(20, 25, 45, 0.7);
+    --nav-border: rgba(100, 120, 180, 0.2);
+    --container-bg: rgba(30, 40, 70, 0.5);
+    --container-bg-hover: rgba(40, 50, 85, 0.6);
+    --container-border: rgba(100, 120, 180, 0.3);
     --accent-color: #f39c12;
     --accent-secondary: #e74c3c;
-    --icon-filter: brightness(0) invert(1);
-    --shadow-color: rgba(0, 0, 0, 0.3);
-    --border-subtle: rgba(255, 255, 255, 0.1);
+    --icon-filter: brightness(0.9) invert(0.9);
+    --shadow-color: rgba(0, 0, 0, 0.4);
+    --border-subtle: rgba(100, 120, 180, 0.15);
 }
 
 body.light-mode {
@@ -225,7 +225,7 @@ section {
 
 .icon:hover {
     transform: translateY(-5px) scale(1.1);
-    filter: brightness(0) invert(1) drop-shadow(0 5px 15px rgba(243, 156, 18, 0.5));
+    filter: var(--icon-filter) drop-shadow(0 5px 15px rgba(243, 156, 18, 0.5));
 }
 
 /* Buttons */
@@ -598,7 +598,7 @@ footer p {
 /* Theme Toggle Button */
 .theme-toggle {
     position: fixed;
-    bottom: 2rem;
+    top: 2rem;
     right: 2rem;
     width: 60px;
     height: 60px;
@@ -612,7 +612,7 @@ footer p {
     justify-content: center;
     box-shadow: 0 5px 20px var(--shadow-color);
     transition: all 0.3s ease;
-    z-index: 999;
+    z-index: 1001;
 }
 
 .theme-toggle:hover {
