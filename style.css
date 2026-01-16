@@ -655,3 +655,24 @@ body.light-mode .moon-icon {
     opacity: 0;
     transform: scale(0.5);
 }
+
+/* Theme Toggle Button for Mobile */
+.theme-toggle-mobile {
+    display: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: var(--container-bg);
+    border: 2px solid var(--container-border);
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 3px 15px var(--shadow-color);
+    transition: all 0.3s ease;
+}
+
+.theme-toggle-mobile:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 20px var(--shadow-color);
+}

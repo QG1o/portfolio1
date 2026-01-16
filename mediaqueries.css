@@ -15,6 +15,20 @@
     }
     #hamburger-nav {
       display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    /* Hide desktop theme toggle on mobile */
+    .theme-toggle {
+      display: none;
+    }
+    /* Show mobile theme toggle */
+    .theme-toggle-mobile {
+      display: flex;
+    }
+    /* Hide footer navigation on mobile */
+    footer nav {
+      display: none;
     }
     #experience, .experience-details-container {
       margin-top: 2rem;
