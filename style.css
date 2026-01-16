@@ -60,7 +60,6 @@ body {
 
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 120px;
 }
 
 p {
@@ -377,6 +376,11 @@ section {
 /* Experience Section */
 #experience {
     position: relative;
+    scroll-margin-top: 240px;
+}
+
+#experience .arrow {
+    bottom: 17.5rem;
 }
 
 .experience-sub-title {
@@ -435,6 +439,11 @@ article .icon {
 /* Projects */
 #projects {
     position: relative;
+    scroll-margin-top: 240px;
+}
+
+#projects .arrow {
+    bottom: 17.5rem;
 }
 
 .color-container {
