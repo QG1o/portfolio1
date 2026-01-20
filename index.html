@@ -1,13 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QG1o</title>
+
+    <!-- SEO Meta Tags -->
+    <title>QG1o | IT-Administrator & Security Enthusiast - Portfolio</title>
+    <meta name="description" content="Portfolio von QG1o - IT-Administrator und Security Enthusiast mit über 20 Jahren Erfahrung in IT-Sicherheit, Systemadministration und Webentwicklung.">
+    <meta name="keywords" content="IT-Administrator, Security Enthusiast, IT-Sicherheit, Webentwicklung, Portfolio, Systemadministration, Active Directory, Frontend">
+    <meta name="author" content="QG1o">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://qg1o.github.io/portfolio1/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://qg1o.github.io/portfolio1/">
+    <meta property="og:title" content="QG1o | IT-Administrator & Security Enthusiast">
+    <meta property="og:description" content="Portfolio von QG1o - IT-Administrator und Security Enthusiast mit über 20 Jahren Erfahrung in IT-Sicherheit und Systemadministration.">
+    <meta property="og:image" content="https://qg1o.github.io/portfolio1/assets/profile-pic.jpeg">
+    <meta property="og:locale" content="de_DE">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://qg1o.github.io/portfolio1/">
+    <meta name="twitter:title" content="QG1o | IT-Administrator & Security Enthusiast">
+    <meta name="twitter:description" content="Portfolio von QG1o - IT-Administrator und Security Enthusiast mit über 20 Jahren Erfahrung.">
+    <meta name="twitter:image" content="https://qg1o.github.io/portfolio1/assets/profile-pic.jpeg">
+
+    <!-- Security Headers -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self';">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+
+    <!-- Schema.org / AEO - Person -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "QG1o",
+        "url": "https://qg1o.github.io/portfolio1/",
+        "image": "https://qg1o.github.io/portfolio1/assets/profile-pic.jpeg",
+        "jobTitle": "IT-Administrator",
+        "description": "IT-Administrator und Security Enthusiast mit über 20 Jahren Erfahrung in IT-Sicherheit und Systemadministration.",
+        "knowsAbout": ["IT-Sicherheit", "Systemadministration", "Active Directory", "HTML", "CSS", "JavaScript", "Python", "Bash", "PowerShell", "SQL"],
+        "sameAs": [
+            "https://github.com/QG1o",
+            "https://linkedin.com/in/QG1o"
+        ]
+    }
+    </script>
+
+    <!-- Schema.org / AEO - WebSite -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "QG1o Portfolio",
+        "url": "https://qg1o.github.io/portfolio1/",
+        "description": "Persönliches Portfolio von QG1o - IT-Administrator und Security Enthusiast",
+        "author": {
+            "@type": "Person",
+            "name": "QG1o"
+        }
+    }
+    </script>
+
+    <!-- Schema.org / AEO - FAQ für AI-Suchmaschinen -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Wer ist QG1o?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "QG1o ist ein IT-Administrator und Security Enthusiast mit über 20 Jahren Erfahrung in IT-Sicherheit und Systemadministration. Er hat komplette IT-Infrastrukturen geplant, aufgebaut und betreut."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Welche Fähigkeiten hat QG1o?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "QG1o beherrscht HTML, CSS und JavaScript für Webentwicklung sowie SQL, Bash, PowerShell und Active Directory für IT-Administration. Sein Schwerpunkt liegt auf IT-Sicherheit und Systemadministration."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Welche Projekte hat QG1o umgesetzt?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "QG1o hat mehrere Webprojekte entwickelt, darunter Portfolio-Websites die mit modernen Webtechnologien wie HTML, CSS und JavaScript erstellt wurden."
+                }
+            }
+        ]
+    }
+    </script>
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
-    <link rel="icon" href="public/favicon.ico" type="image/ico" />
+    <link rel="icon" href="public/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
  </head>
  <body>
     <nav id="desktop-nav">
@@ -55,14 +152,12 @@
                 <button class="btn btn-color-1" onclick="location.href='./#about'">Über mich</button>
             </div>
             <div id="socials-container">
-                <img src="./assets/linkedin.png" 
-                alt="My LinkedIn profile" 
-                class="icon" 
-                onclick="location.href='https://linkedin.com/QG1o'">
-            <img src="./assets/github.png" 
-                alt="My Github profile" 
-                class="icon" 
-                onclick="location.href='https://github.com/QG1o'">
+                <a href="https://linkedin.com/in/QG1o" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profil">
+                    <img src="./assets/linkedin.png" alt="LinkedIn Profil" class="icon">
+                </a>
+                <a href="https://github.com/QG1o" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profil">
+                    <img src="./assets/github.png" alt="GitHub Profil" class="icon">
+                </a>
         </div>
     </section>
     <section id="about">
@@ -229,91 +324,42 @@
             <div class="about-containers">
             <div class="details-container color-container">
                 <div class="article-container">
-                    <img
-                    src="./assets/project44.png"
-                    alt="Project 1"
-                    class="project-img"
-                    />
+                    <img src="./assets/project44.png" alt="Website 1 - Portfolio Projekt" class="project-img" loading="lazy">
                 </div>
                 <h2 class="experience-sub-title project-title">Website 1</h2>
                 <div class="btn-container">
-                    <button
-                    class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/QG1o/portfolio4'"
-                    >
-                        Github
-                    </button>
-                    <button
-                    class="btn btn-color-2 project-btn" onclick="location.href='https://qg1o2.netlify.app/'"
-                    >
-                        Live Demo
-                    </button>
+                    <a href="https://github.com/QG1o/portfolio4" target="_blank" rel="noopener noreferrer" class="btn btn-color-2 project-btn">Github</a>
+                    <a href="https://qg1o2.netlify.app/" target="_blank" rel="noopener noreferrer" class="btn btn-color-2 project-btn">Live Demo</a>
                 </div>
             </div>
             <div class="details-container color-container">
                 <div class="article-container">
-                    <img
-                    src="./assets/project33.png"
-                    alt="Project 2"
-                    class="project-img"
-                    />
+                    <img src="./assets/project33.png" alt="Website 2 - Portfolio Projekt" class="project-img" loading="lazy">
                 </div>
                 <h2 class="experience-sub-title project-title">Website 2</h2>
                 <div class="btn-container">
-                    <button
-                    class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/QG1o/portfolio3'"
-                    >
-                        Github
-                    </button>
-                    <button
-                    class="btn btn-color-2 project-btn" onclick="location.href='https://qg1o.netlify.app/'"
-                    >
-                        Live Demo
-                    </button>
+                    <a href="https://github.com/QG1o/portfolio3" target="_blank" rel="noopener noreferrer" class="btn btn-color-2 project-btn">Github</a>
+                    <a href="https://qg1o.netlify.app/" target="_blank" rel="noopener noreferrer" class="btn btn-color-2 project-btn">Live Demo</a>
                 </div>
             </div>
             <div class="details-container color-container">
                 <div class="article-container">
-                    <img
-                    src="./assets/project11.png"
-                    alt="Project 3"
-                    class="project-img"
-                    />
+                    <img src="./assets/project11.png" alt="Website 3 - Portfolio Projekt" class="project-img" loading="lazy">
                 </div>
                 <h2 class="experience-sub-title project-title">Website 3</h2>
                 <div class="btn-container">
-                    <button
-                    class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/QG1o/portfolio2'"
-                    >
-                        Github
-                    </button>
-                    <button
-                    class="btn btn-color-2 project-btn" onclick="location.href='https://qg1o.github.io/portfolio2/'"
-                    >
-                        Live Demo
-                    </button>
+                    <a href="https://github.com/QG1o/portfolio2" target="_blank" rel="noopener noreferrer" class="btn btn-color-2 project-btn">Github</a>
+                    <a href="https://qg1o.github.io/portfolio2/" target="_blank" rel="noopener noreferrer" class="btn btn-color-2 project-btn">Live Demo</a>
                 </div>
             </div>
             <div class="details-container color-container">
-
                 <div class="article-container">
-                    <img
-                    src="./assets/project22.png"
-                    alt="Project 4"
-                    class="project-img"
-                    />
+                    <img src="./assets/project22.png" alt="Website 4 - Portfolio Projekt" class="project-img" loading="lazy">
                 </div>
                 <h2 class="experience-sub-title project-title">Website 4</h2>
                 <div class="btn-container">
-                    <button
-                    class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/QG1o/portfolio1'"
-                    >
-                        Github
-                    </button>
-                    <button
-                    class="btn btn-color-2 project-btn" onclick="location.href='https://qg1o.github.io/portfolio1/'"
-                    >
-                        Live Demo
-                    </button>
+                    <a href="https://github.com/QG1o/portfolio1" target="_blank" rel="noopener noreferrer" class="btn btn-color-2 project-btn">Github</a>
+                    <a href="https://qg1o.github.io/portfolio1/" target="_blank" rel="noopener noreferrer" class="btn btn-color-2 project-btn">Live Demo</a>
                 </div>
             </div>
          </div>
@@ -335,8 +381,7 @@
                 alt="Email icon"
                 class="icon contact-icon"
                 />
-                <p><a href="mailto:example@gmail.com">g@mioo.slmail.me</a></
-                p>
+                <p><a href="mailto:g@mioo.slmail.me">g@mioo.slmail.me</a></p>
             </div>
             <div class="contact-info-container">
                 <img 
@@ -344,7 +389,7 @@
                 alt="LinkedIn icon" 
                 class="icon contact-icon"
                 />
-                <p><a href="https://www.linkedin.com/QG1o">LinkedIn</a></p>
+                <p><a href="https://www.linkedin.com/in/QG1o" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
             </div>
             
         </div>
