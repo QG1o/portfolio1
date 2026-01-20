@@ -148,8 +148,8 @@
             <h1 class="title">QG1o</h1>
             <p class="section__text__p2">IT-Administrator • Security Enthusiast</p>
             <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">Lebenslauf</button>
-                <button class="btn btn-color-1" onclick="location.href='./#about'">Über mich</button>
+                <a href="./assets/resume-example.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-color-2">Lebenslauf</a>
+                <a href="#about" class="btn btn-color-1">Über mich</a>
             </div>
             <div id="socials-container">
                 <a href="https://linkedin.com/in/QG1o" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profil">
@@ -197,12 +197,9 @@
                 </div>
             </div>
         </div>
-        <img 
-            src="./assets/arrow.png" 
-            alt="Arrow Icon" 
-            class="icon arrow" 
-            onclick="location.href='./#experience'"
-        />
+        <a href="#experience" aria-label="Weiter zu Erfahrung">
+            <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow">
+        </a>
     </section>
     <section id="experience">
         <p class="section__text__p1"></p>
@@ -309,12 +306,9 @@
                 </div>
             </div>
         </div>
-        <img 
-            src="./assets/arrow.png" 
-            alt="Arrow Icon" 
-            class="icon arrow" 
-            onclick="location.href='./#projects'"
-        />
+        <a href="#projects" aria-label="Weiter zu Projekte">
+            <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow">
+        </a>
     </section>
     <section id="projects"> 
         <p class="section__text__p1"></p>
@@ -364,12 +358,9 @@
             </div>
          </div>
         </div>
-        <img 
-            src="./assets/arrow.png" 
-            alt="Arrow Icon" 
-            class="icon arrow" 
-            onclick="location.href='./#contact'"
-        />
+        <a href="#contact" aria-label="Weiter zu Kontakt">
+            <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow">
+        </a>
     </section>
     <section id="contact">
         <p class="section__text__p1"></p>
